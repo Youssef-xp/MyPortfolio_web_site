@@ -514,6 +514,61 @@ section.cards-contact {
     transform: scale(1.1);
 }
 
+/* Technology-specific icon colors for skills section */
+#skills .card:nth-child(1) .icon {
+    background: none;
+    -webkit-text-fill-color: #61DAFB;
+    color: #61DAFB;
+}
+
+#skills .card:nth-child(2) .icon {
+    background: none;
+    -webkit-text-fill-color: #FF2D20;
+    color: #FF2D20;
+}
+
+#skills .card:nth-child(3) .icon {
+    background: none;
+    -webkit-text-fill-color: #7952B3;
+    color: #7952B3;
+}
+
+#skills .card:nth-child(4) .icon {
+    background: none;
+    -webkit-text-fill-color: #00ED64;
+    color: #00ED64;
+}
+
+#skills .card:nth-child(5) .icon {
+    background: none;
+    -webkit-text-fill-color: #00758F;
+    color: #00758F;
+}
+
+#skills .card:nth-child(6) .icon {
+    background: none;
+    -webkit-text-fill-color: #F1502F;
+    color: #F1502F;
+}
+
+#skills .card:nth-child(7) .icon {
+    background: none;
+    -webkit-text-fill-color: #181717;
+    color: #181717;
+}
+
+#skills .card:nth-child(8) .icon {
+    background: none;
+    -webkit-text-fill-color: #F7DF1E;
+    color: #F7DF1E;
+}
+
+#skills .card:nth-child(9) .icon {
+    background: none;
+    -webkit-text-fill-color: #777BB4;
+    color: #777BB4;
+}
+
 .info {
     text-align: center;
     margin-top: 1.25rem;
