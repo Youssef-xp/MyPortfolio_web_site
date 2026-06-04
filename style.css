@@ -398,6 +398,32 @@ section.cards-contact {
     transform: translateY(-1px);
 }
 
+.hero-buttons {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.btn-secondary {
+    background: var(--bg-card);
+    border: 2px solid var(--accent-cyan);
+    color: var(--accent-cyan);
+    box-shadow: 0 8px 28px rgba(6, 182, 212, 0.2);
+    transition: all 0.35s ease;
+}
+
+.btn-secondary:hover {
+    background: var(--accent-cyan);
+    color: var(--bg-primary);
+    box-shadow: 0 14px 40px rgba(6, 182, 212, 0.5);
+    transform: translateY(-3px);
+}
+
+.btn-secondary:active {
+    transform: translateY(-1px);
+}
+
 /* ===============================
    Social Icons
 ================================ */
