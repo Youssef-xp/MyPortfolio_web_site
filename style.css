@@ -328,28 +328,35 @@ section.cards-contact {
 }
 
 .hero-image {
-    width: 300px;
-    height: 300px;
+    width: 360px;
+    height: 360px;
     border-radius: 50%;
     object-fit: cover;
-    object-position: center top;
-    border: 4px solid var(--hero-image-border);
+    object-position: center 35%;
+    border: 3px solid var(--hero-image-border);
     box-shadow:
+        0 0 0 8px rgba(59, 130, 246, 0.08),
         var(--hero-image-shadow),
-        0 0 0 1px rgba(255, 255, 255, 0.05),
-        0 0 60px rgba(59, 130, 246, 0.25);
-    transition: transform 0.45s cubic-bezier(0.4, 0, 0.2, 1),
-        box-shadow 0.45s ease,
-        border-color 0.45s ease;
+        0 0 0 1px rgba(255, 255, 255, 0.08),
+        0 0 60px rgba(59, 130, 246, 0.3),
+        inset 0 0 30px rgba(139, 92, 246, 0.1);
+    transition: transform 0.6s cubic-bezier(0.34, 1.56, 0.64, 1),
+        box-shadow 0.6s cubic-bezier(0.4, 0, 0.2, 1),
+        border-color 0.6s ease,
+        filter 0.6s ease;
+    filter: brightness(1) contrast(1.05);
 }
 
 .hero-image-wrapper:hover .hero-image {
-    transform: scale(1.04) translateY(-6px);
-    border-color: rgba(6, 182, 212, 0.4);
+    transform: scale(1.08) translateY(-10px) rotateZ(-2deg);
+    border-color: rgba(6, 182, 212, 0.6);
     box-shadow:
-        0 35px 60px rgba(0, 0, 0, 0.5),
-        0 0 80px rgba(139, 92, 246, 0.35),
-        0 0 40px rgba(6, 182, 212, 0.2);
+        0 0 0 12px rgba(59, 130, 246, 0.12),
+        0 45px 80px rgba(0, 0, 0, 0.6),
+        0 0 100px rgba(139, 92, 246, 0.45),
+        0 0 50px rgba(6, 182, 212, 0.35),
+        inset 0 0 40px rgba(139, 92, 246, 0.15);
+    filter: brightness(1.1) contrast(1.15);
 }
 
 .main-btn {
